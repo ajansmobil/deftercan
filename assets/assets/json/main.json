@@ -1,0 +1,31 @@
+{
+  "project": {
+    "id": "com.deftercan.mobil",
+    "name": "Deftercan",
+    "description": "LLM destekli ön muhasebe uygulaması",
+    "version": "1.0.0",
+    "build": 1,
+    "baseUrl": "https://api.deftercan.com"
+  },
+  "langs": ["tr", "en"],
+  "lang_names": {
+    "tr": "Türkçe",
+    "en": "English"
+  },
+  "default": "tr",
+  "theme": {
+    "default": "system",
+    "options": ["system", "light", "dark"]
+  },
+  "currency": {
+    "code": "TRY",
+    "symbol": "₺",
+    "default": "TRY"
+  },
+  "format": {
+    "date": "dd.MM.yyyy",
+    "time": "HH:mm",
+    "decimal_separator": ",",
+    "thousand_separator": "."
+  }
+}
