@@ -48,6 +48,7 @@
   "username_label": "Kullanıcı Adı",
   "full_name_label": "Ad Soyad",
   "phone_label": "Telefon",
+  "hesabin_yok_mu": "Hesabın yok mu?",
   "login_button": "Giriş Yap",
   "register_button": "Kayıt Ol",
   "forgot_password_button": "Sıfırlama Gönder",
