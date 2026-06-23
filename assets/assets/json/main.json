@@ -4,8 +4,13 @@
     "name": "Deftercan",
     "description": "LLM destekli ön muhasebe uygulaması",
     "version": "1.0.0",
-    "build": 1,
-    "baseUrl": "https://api.deftercan.com"
+    "build": 1
+  },
+  "api": {
+    "baseUrl": "https://api.deftercan.com",
+    "version": "v1",
+    "timeout_seconds": 30,
+    "retry_count": 2
   },
   "langs": ["tr", "en"],
   "lang_names": {
@@ -13,19 +18,27 @@
     "en": "English"
   },
   "default": "tr",
+  "fallback": "en",
   "theme": {
     "default": "system",
     "options": ["system", "light", "dark"]
   },
   "currency": {
-    "code": "TRY",
-    "symbol": "₺",
-    "default": "TRY"
+    "default": "TRY",
+    "supported": ["TRY", "USD", "EUR", "GBP"],
+    "symbols": {
+      "TRY": "₺",
+      "USD": "$",
+      "EUR": "€",
+      "GBP": "£"
+    }
   },
   "format": {
     "date": "dd.MM.yyyy",
     "time": "HH:mm",
+    "datetime": "dd.MM.yyyy HH:mm",
     "decimal_separator": ",",
-    "thousand_separator": "."
+    "thousand_separator": ".",
+    "decimal_digits": 2
   }
 }
