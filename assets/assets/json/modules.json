@@ -1,0 +1,130 @@
+{
+  "modules": [
+    {
+      "id": "transactions",
+      "route": "/transactions_list",
+      "icon": "receipt_long",
+      "title_key": "transaction_list_title",
+      "section": "business",
+      "features": [
+        { "id": "receipt_upload", "title_key": "feature_receipt_upload", "default": true }
+      ]
+    },
+    {
+      "id": "contacts",
+      "route": "/cariler_list",
+      "icon": "people",
+      "title_key": "contacts_title",
+      "section": "business",
+      "features": []
+    },
+    {
+      "id": "invoices",
+      "route": "/invoices_list",
+      "icon": "description",
+      "title_key": "invoices_title",
+      "section": "business",
+      "features": [
+        { "id": "receipt_photo", "title_key": "feature_receipt_photo", "default": true }
+      ]
+    },
+    {
+      "id": "products",
+      "route": "/products_list",
+      "icon": "inventory_2",
+      "title_key": "products_title",
+      "section": "business",
+      "features": [
+        { "id": "stock_tracking", "title_key": "feature_stock_tracking", "default": true }
+      ]
+    },
+    {
+      "id": "cash_accounts",
+      "route": "/cash_accounts_list",
+      "icon": "account_balance_wallet",
+      "title_key": "cash_accounts_title",
+      "section": "business",
+      "features": []
+    },
+    {
+      "id": "sened",
+      "route": "/senedler",
+      "icon": "receipt",
+      "title_key": "sened_list_title",
+      "section": "business",
+      "features": []
+    },
+    {
+      "id": "teklif",
+      "route": "/teklifler",
+      "icon": "request_quote",
+      "title_key": "teklif_list_title",
+      "section": "business",
+      "features": [
+        { "id": "convert_to_invoice", "title_key": "feature_convert_to_invoice", "default": true }
+      ]
+    },
+    {
+      "id": "irsaliye",
+      "route": "/irsaliyeler",
+      "icon": "local_shipping",
+      "title_key": "irsaliye_list_title",
+      "section": "business",
+      "features": []
+    },
+    {
+      "id": "personnel",
+      "route": "/personeller",
+      "icon": "badge",
+      "title_key": "personel_list_title",
+      "section": "business",
+      "features": []
+    },
+    {
+      "id": "currency",
+      "route": "/doviz",
+      "icon": "attach_money",
+      "title_key": "doviz_title",
+      "section": "business",
+      "features": []
+    },
+    {
+      "id": "reports",
+      "route": "/reports_home",
+      "icon": "bar_chart",
+      "title_key": "reports_title",
+      "section": "reports",
+      "features": []
+    },
+    {
+      "id": "vadesi_gelenler",
+      "route": "/vadesi_gelenler",
+      "icon": "calendar_today",
+      "title_key": "vadesi_gelenler_title",
+      "section": "reports",
+      "features": []
+    }
+  ],
+  "report_links": [
+    { "id": "reports_income", "route": "/reports_income_expense", "icon": "trending_up", "title_key": "reports_gelir_gider" },
+    { "id": "reports_cash", "route": "/reports_cash_flow", "icon": "account_balance", "title_key": "reports_kasa_raporu" },
+    { "id": "reports_category", "route": "/reports_category", "icon": "pie_chart", "title_key": "reports_kategori_raporu" },
+    { "id": "reports_home", "route": "/reports_home", "icon": "bar_chart", "title_key": "reports_title" }
+  ],
+  "quick_actions": [
+    { "id": "income_add", "route": "/transaction_add", "args": { "type": "income" }, "icon": "arrow_upward", "title_key": "home_gelir_ekle", "module": "transactions", "color": "green" },
+    { "id": "expense_add", "route": "/transaction_add", "args": { "type": "expense" }, "icon": "arrow_downward", "title_key": "home_gider_ekle", "module": "transactions", "color": "red" },
+    { "id": "contacts", "route": "/cariler_list", "icon": "people", "title_key": "contacts_title", "module": "contacts", "color": "blue" },
+    { "id": "invoices", "route": "/invoices_list", "icon": "description", "title_key": "invoices_title", "module": "invoices", "color": "purple" },
+    { "id": "products", "route": "/products_list", "icon": "inventory_2", "title_key": "products_title", "module": "products", "color": "teal" },
+    { "id": "teklif", "route": "/teklifler", "icon": "request_quote", "title_key": "teklif_list_title", "module": "teklif", "color": "orange" }
+  ],
+  "home_sections": [
+    { "id": "summary", "title_key": "home_nakit_aktif" },
+    { "id": "quick_actions", "title_key": "home_hizli_islemler" },
+    { "id": "modules_grid", "title_key": "home_moduller" },
+    { "id": "reports_grid", "title_key": "home_raporlar" },
+    { "id": "vadesi_gelenler", "title_key": "vadesi_gelenler_title" },
+    { "id": "recent_transactions", "title_key": "home_son_islemler" }
+  ]
+}
