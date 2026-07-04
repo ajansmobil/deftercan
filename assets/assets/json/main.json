@@ -2,6 +2,7 @@
   "project": {
     "id": "com.deftercan.mobil",
     "name": "Deftercan",
+    "baseUrl": "https://api.deftercan.com",
     "description": "LLM destekli ön muhasebe uygulaması",
     "version": "1.0.0",
     "build": 1
@@ -21,7 +22,7 @@
   "default": "tr",
   "fallback": "en",
   "theme": {
-    "default": "system",
+    "default": "light",
     "options": ["system", "light", "dark"]
   },
   "currency": {
