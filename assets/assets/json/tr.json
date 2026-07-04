@@ -83,6 +83,7 @@
   "already_have_account": "Zaten hesabın var mı?",
   "dil_turkce": "Türkçe",
   "dil_english": "English",
+  "dil_arabic": "العربية",
   "dil_baslik": "Dil",
   "ayarlar_baslik": "Ayarlar",
   "transaction_add_title": "İşlem Ekle",
@@ -474,5 +475,15 @@
   "cari_sil_baslik": "Cari Sil",
   "cari_excel_baslik": "Cari Excel Verisi",
   "cari_adet": "{count} adet",
-  "transaction_receipt_title": "Dekont / Fiş Fotoğrafı"
+  "transaction_receipt_title": "Dekont / Fiş Fotoğrafı",
+  "transaction_cari": "Cari",
+  "transaction_select_category": "Kategori seçmek için dokunun",
+  "transaction_select_cari_hint": "Cari seçmek için dokunun",
+  "transaction_no_cari": "Cari yok",
+  "contacts_kategori": "Kategori",
+  "contacts_kategori_sec": "Kategori seçmek için dokunun",
+  "contacts_kategorisiz": "Kategorisiz",
+  "contacts_kategori_bos": "Önce Ayarlar > Kategoriler bölümünden cari kategorisi ekleyin",
+  "categories_type_contact": "Cari Kategorisi",
+  "picker_search": "Ara..."
 }

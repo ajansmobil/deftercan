@@ -80,6 +80,7 @@
   "profile_cikis_yap_buton": "Logout",
   "dil_turkce": "Türkçe",
   "dil_english": "English",
+  "dil_arabic": "العربية",
   "dil_baslik": "Language",
   "ayarlar_baslik": "Settings",
   "transaction_add_title": "Add Transaction",
@@ -441,5 +442,15 @@
   "cari_sil_baslik": "Delete Contact",
   "cari_excel_baslik": "Contact Excel Data",
   "cari_adet": "{count} items",
-  "transaction_receipt_title": "Receipt Photo"
+  "transaction_receipt_title": "Receipt Photo",
+  "transaction_cari": "Contact",
+  "transaction_select_category": "Tap to select category",
+  "transaction_select_cari_hint": "Tap to select contact",
+  "transaction_no_cari": "No contact",
+  "contacts_kategori": "Category",
+  "contacts_kategori_sec": "Tap to select category",
+  "contacts_kategorisiz": "Uncategorized",
+  "contacts_kategori_bos": "Add contact categories in Settings > Categories first",
+  "categories_type_contact": "Contact Category",
+  "picker_search": "Search..."
 }

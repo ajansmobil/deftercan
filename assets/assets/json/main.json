@@ -12,10 +12,11 @@
     "timeout_seconds": 30,
     "retry_count": 2
   },
-  "langs": ["tr", "en"],
+  "langs": ["tr", "en", "ar"],
   "lang_names": {
     "tr": "Türkçe",
-    "en": "English"
+    "en": "English",
+    "ar": "العربية"
   },
   "default": "tr",
   "fallback": "en",
