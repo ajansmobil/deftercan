@@ -155,10 +155,15 @@
     { "id": "vadesi_gelenler", "route": "/vadesi_gelenler", "icon": "calendar_today", "title_key": "vadesi_gelenler_title", "module": "vadesi_gelenler", "group_key": "planning", "color": "amber" }
   ],
   "home_sections": [
+    { "id": "welcome", "title_key": "home_welcome" },
     { "id": "summary", "title_key": "home_nakit_aktif" },
+    { "id": "stock_alert", "title_key": "home_stock_uyari_baslik" },
+    { "id": "sales_overview", "title_key": "home_widget_sales" },
+    { "id": "cash_overview", "title_key": "home_widget_cash" },
     { "id": "quick_actions", "title_key": "home_hizli_islemler" },
     { "id": "reports_grid", "title_key": "home_raporlar" },
     { "id": "vadesi_gelenler", "title_key": "vadesi_gelenler_title" },
-    { "id": "recent_transactions", "title_key": "home_son_islemler" }
+    { "id": "recent_transactions", "title_key": "home_son_islemler" },
+    { "id": "sector_suggestion", "title_key": "home_sektor_oner_baslik" }
   ]
 }
