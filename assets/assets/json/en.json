@@ -69,6 +69,7 @@
   "register_sifre_tekrar_hint": "Enter your password again",
   "register_kullanici_adi_min": "Username must be at least 3 characters",
   "register_sifre_min": "Password must be at least 8 characters",
+  "register_sifre_karma": "Password must include uppercase, lowercase and a number",
   "register_sifre_eslesmiyor": "Passwords do not match",
   "forgot_password_basari_baslik": "Email Sent",
   "forgot_password_basari_icerik": "A password reset link has been sent to your email address.",

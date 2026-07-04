@@ -71,6 +71,7 @@
   "register_sifre_tekrar_hint": "Şifrenizi tekrar girin",
   "register_kullanici_adi_min": "Kullanıcı adı en az 3 karakter olmalı",
   "register_sifre_min": "Şifre en az 8 karakter olmalı",
+  "register_sifre_karma": "Şifre en az 1 büyük harf, 1 küçük harf ve 1 rakam içermeli",
   "register_sifre_eslesmiyor": "Şifreler eşleşmiyor",
   "forgot_password_basari_baslik": "E-posta Gönderildi",
   "forgot_password_basari_icerik": "Şifre sıfırlama bağlantısı e-posta adresinize gönderildi.",
