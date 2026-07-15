@@ -59,6 +59,22 @@
       "features": []
     },
     {
+      "id": "warehouses",
+      "route": "/depolar",
+      "icon": "warehouse",
+      "title_key": "warehouses_title",
+      "section": "business",
+      "features": []
+    },
+    {
+      "id": "price_lists",
+      "route": "/fiyat_listeleri",
+      "icon": "sell",
+      "title_key": "price_lists_title",
+      "section": "business",
+      "features": []
+    },
+    {
       "id": "sened",
       "route": "/senedler",
       "icon": "receipt",
@@ -140,6 +156,9 @@
     { "id": "pos", "route": "/pos", "icon": "point_of_sale", "title_key": "pos_title", "module": "pos", "group_key": "products_sales", "color": "indigo" },
     { "id": "cash_accounts", "route": "/cash_accounts_list", "icon": "account_balance_wallet", "title_key": "cash_accounts_title", "module": "cash_accounts", "group_key": "cash", "color": "green" },
     { "id": "cash_add", "route": "/cash_accounts_form", "icon": "add_card", "title_key": "cash_accounts_yeni", "module": "cash_accounts", "group_key": "cash", "color": "green" },
+    { "id": "warehouses", "route": "/depolar", "icon": "warehouse", "title_key": "warehouses_title", "module": "warehouses", "group_key": "products_sales", "color": "teal" },
+    { "id": "warehouse_transfer", "route": "/depo_transfer", "icon": "swap_horiz", "title_key": "transfer_title", "module": "warehouses", "group_key": "products_sales", "color": "teal" },
+    { "id": "price_lists", "route": "/fiyat_listeleri", "icon": "sell", "title_key": "price_lists_title", "module": "price_lists", "group_key": "products_sales", "color": "teal" },
     { "id": "sened", "route": "/senedler", "icon": "receipt", "title_key": "sened_list_title", "module": "sened", "group_key": "documents", "color": "purple" },
     { "id": "sened_add", "route": "/sened_form", "icon": "post_add", "title_key": "sened_add_title", "module": "sened", "group_key": "documents", "color": "purple" },
     { "id": "teklif", "route": "/teklifler", "icon": "request_quote", "title_key": "teklif_list_title", "module": "teklif", "group_key": "documents", "color": "orange" },
