@@ -11884,7 +11884,7 @@ boO(a,b){if(b)return!1
 if(a==null||a.length===0)return!0
 return!B.a41.p(0,a)},
 boN(a,b){var s=t.w,r=A.aN(a,B.c_,s).w.r.d
-if(b==="/home"&&A.aN(a,B.aI,s).w.a.a<=699)return r+72+12
+if(A.aN(a,B.aI,s).w.a.a<=699)return r+72+72
 return r+80},
 bcY(a){var s=$.QL(),r=$.aj.aq$.x.h(0,s)
 if(r==null)r=a

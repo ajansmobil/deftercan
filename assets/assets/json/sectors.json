@@ -27,7 +27,9 @@
         "teklif": { "enabled": false, "features": {} },
         "irsaliye": { "enabled": false, "features": {} },
         "personnel": { "enabled": false, "features": {} },
-        "currency": { "enabled": false, "features": {} }
+        "currency": { "enabled": false, "features": {} },
+        "warehouses": { "enabled": false, "features": {} },
+        "price_lists": { "enabled": false, "features": {} }
       }
     },
     {
@@ -69,7 +71,9 @@
         "teklif": { "enabled": false, "features": {} },
         "irsaliye": { "enabled": false, "features": {} },
         "personnel": { "enabled": false, "features": {} },
-        "currency": { "enabled": false, "features": {} }
+        "currency": { "enabled": false, "features": {} },
+        "warehouses": { "enabled": true, "features": {} },
+        "price_lists": { "enabled": true, "features": {} }
       }
     },
     {
@@ -108,7 +112,9 @@
         "teklif": { "enabled": true, "features": { "convert_to_invoice": true } },
         "irsaliye": { "enabled": false, "features": {} },
         "personnel": { "enabled": false, "features": {} },
-        "currency": { "enabled": false, "features": {} }
+        "currency": { "enabled": false, "features": {} },
+        "warehouses": { "enabled": false, "features": {} },
+        "price_lists": { "enabled": true, "features": {} }
       }
     },
     {
@@ -156,7 +162,9 @@
         "teklif": { "enabled": true, "features": { "convert_to_invoice": true } },
         "irsaliye": { "enabled": true, "features": {} },
         "personnel": { "enabled": true, "features": {} },
-        "currency": { "enabled": true, "features": {} }
+        "currency": { "enabled": true, "features": {} },
+        "warehouses": { "enabled": true, "features": {} },
+        "price_lists": { "enabled": true, "features": {} }
       }
     }
   ]
