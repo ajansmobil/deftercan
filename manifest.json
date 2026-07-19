@@ -1,23 +1,25 @@
 {
-    "name": "deftercan",
-    "short_name": "deftercan",
+    "name": "Deftercan",
+    "short_name": "Deftercan",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#3B7DBF",
     "theme_color": "#3B7DBF",
-    "description": "A new Flutter project.",
+    "description": "LLM destekli ön muhasebe uygulaması",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
         {
             "src": "icons/Icon-192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "icons/Icon-512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "icons/Icon-maskable-192.png",

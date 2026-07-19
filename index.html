@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -18,19 +18,36 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- project.name / description — assets/json/main.json ile uyumlu -->
+  <meta name="description" content="LLM destekli ön muhasebe uygulaması">
+  <meta name="theme-color" content="#3B7DBF">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Deftercan">
+  <meta property="og:description" content="LLM destekli ön muhasebe uygulaması">
+  <meta property="og:locale" content="tr_TR">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="deftercan">
+  <meta name="apple-mobile-web-app-title" content="Deftercan">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <!-- Favicon -->
+  <!-- Favicon (gerçek set; temp_favicon kullanılmaz) -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>deftercan</title>
+  <title>Deftercan</title>
   <link rel="manifest" href="manifest.json">
+
+  <!--
+    PWA notu:
+    - Flutter `flutter build web` ile `flutter_service_worker.js` üretir (özel SW yok).
+    - Özel çevrimdışı yedek sayfa: `offline.html` (SW yapılandırması Flutter varsayılanı;
+      tam offline shell için ileride Flutter SW / Workbox genişletilebilir).
+  -->
 </head>
 <body>
   <!--
@@ -42,5 +59,9 @@
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
   <script src="flutter_bootstrap.js" async></script>
+  <noscript>
+    <p>Deftercan için JavaScript gerekir.
+      Çevrimdışı yedek: <a href="offline.html">offline.html</a></p>
+  </noscript>
 </body>
 </html>

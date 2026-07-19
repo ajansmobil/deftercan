@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#3B7DBF">
+  <title>Deftercan — Çevrimdışı</title>
+  <style>
+    :root {
+      --brand: #3B7DBF;
+      --bg: #f0f4f8;
+      --text: #1a2332;
+      --muted: #5a6a7a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: linear-gradient(160deg, #e8f0f8 0%, var(--bg) 45%, #dce8f4 100%);
+      color: var(--text);
+      padding: 24px;
+    }
+    main {
+      max-width: 420px;
+      text-align: center;
+    }
+    .mark {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 20px;
+      border-radius: 18px;
+      background: var(--brand);
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    p {
+      margin: 0 0 24px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    button {
+      appearance: none;
+      border: none;
+      border-radius: 12px;
+      padding: 12px 22px;
+      font-size: 1rem;
+      font-weight: 600;
+      background: var(--brand);
+      color: #fff;
+      cursor: pointer;
+      min-height: 48px;
+      min-width: 160px;
+    }
+    button:hover { filter: brightness(1.05); }
+    button:focus-visible {
+      outline: 3px solid #9bc4e8;
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Flutter build Service Worker üretmezse / özel SW yoksa bu sayfa yedek çevrimdışı yüzeydir. -->
+  <main>
+    <div class="mark" aria-hidden="true">D</div>
+    <h1>Çevrimdışısınız</h1>
+    <p>
+      İnternet bağlantısı yok. Bağlantı geldiğinde uygulamayı yeniden yükleyin.
+    </p>
+    <button type="button" onclick="location.reload()">Yeniden dene</button>
+  </main>
+</body>
+</html>
