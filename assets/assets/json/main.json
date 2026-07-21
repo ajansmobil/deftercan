@@ -2,13 +2,13 @@
   "project": {
     "id": "com.deftercan.mobil",
     "name": "Deftercan",
-    "baseUrl": "https://api.deftercan.com",
+    "baseUrl": "http://localhost:8787",
     "description": "LLM destekli ön muhasebe uygulaması",
     "version": "1.1.0",
     "build": 2
   },
   "api": {
-    "baseUrl": "https://api.deftercan.com",
+    "baseUrl": "http://localhost:8787",
     "version": "v1",
     "timeout_seconds": 30,
     "retry_count": 2
