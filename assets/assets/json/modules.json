@@ -35,6 +35,7 @@
       "title_key": "products_title",
       "section": "business",
       "features": [
+        { "id": "product_image", "title_key": "feature_product_image", "default": true },
         { "id": "stock_tracking", "title_key": "feature_stock_tracking", "default": true },
         { "id": "barcode_scan", "title_key": "feature_barcode_scan", "default": true }
       ]
