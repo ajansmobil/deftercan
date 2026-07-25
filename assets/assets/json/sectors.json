@@ -1,4 +1,12 @@
 {
+  "sector_groups": [
+    {
+      "id": "hizmet",
+      "icon": "handyman",
+      "name_key": "sector_group_hizmet",
+      "desc_key": "sector_group_hizmet_desc"
+    }
+  ],
   "sectors": [
     {
       "id": "lite",
@@ -83,6 +91,265 @@
       "icon": "handyman",
       "name_key": "sector_hizmet",
       "desc_key": "sector_hizmet_desc",
+      "onboarding_hidden": true,
+      "home_preset": {
+        "quick_actions": [
+          "teklif",
+          "income_add",
+          "expense_add",
+          "invoices",
+          "contacts",
+          "transactions",
+          "cash_accounts",
+          "reports"
+        ],
+        "sections": [
+          { "id": "welcome", "visible": true, "style": "card" },
+          { "id": "summary", "visible": true, "style": "card" },
+          { "id": "quick_actions", "visible": true, "style": "grid" },
+          { "id": "vadesi_gelenler", "visible": true, "style": "banner" },
+          { "id": "recent_transactions", "visible": true, "style": "list" },
+          { "id": "reports_grid", "visible": true, "style": "grid" }
+        ]
+      },
+      "default_modules": {
+        "transactions": { "enabled": true, "features": { "receipt_upload": true } },
+        "contacts": { "enabled": true, "features": {} },
+        "invoices": { "enabled": true, "features": { "receipt_photo": true } },
+        "products": { "enabled": false, "features": {} },
+        "cash_accounts": { "enabled": true, "features": {} },
+        "reports": { "enabled": true, "features": {} },
+        "vadesi_gelenler": { "enabled": true, "features": {} },
+        "sened": { "enabled": false, "features": {} },
+        "teklif": { "enabled": true, "features": { "convert_to_invoice": true } },
+        "irsaliye": { "enabled": false, "features": {} },
+        "personnel": { "enabled": false, "features": {} },
+        "currency": { "enabled": false, "features": {} },
+        "warehouses": { "enabled": false, "features": {} },
+        "price_lists": { "enabled": true, "features": {} }
+      }
+    },
+    {
+      "id": "hizmet_tamirci",
+      "group_id": "hizmet",
+      "icon": "build",
+      "name_key": "sector_hizmet_tamirci",
+      "desc_key": "sector_hizmet_tamirci_desc",
+      "home_preset": {
+        "quick_actions": [
+          "teklif",
+          "income_add",
+          "expense_add",
+          "invoices",
+          "contacts",
+          "transactions",
+          "cash_accounts",
+          "reports"
+        ],
+        "sections": [
+          { "id": "welcome", "visible": true, "style": "card" },
+          { "id": "summary", "visible": true, "style": "card" },
+          { "id": "quick_actions", "visible": true, "style": "grid" },
+          { "id": "vadesi_gelenler", "visible": true, "style": "banner" },
+          { "id": "recent_transactions", "visible": true, "style": "list" },
+          { "id": "reports_grid", "visible": true, "style": "grid" }
+        ]
+      },
+      "default_modules": {
+        "transactions": { "enabled": true, "features": { "receipt_upload": true } },
+        "contacts": { "enabled": true, "features": {} },
+        "invoices": { "enabled": true, "features": { "receipt_photo": true } },
+        "products": { "enabled": false, "features": {} },
+        "cash_accounts": { "enabled": true, "features": {} },
+        "reports": { "enabled": true, "features": {} },
+        "vadesi_gelenler": { "enabled": true, "features": {} },
+        "sened": { "enabled": false, "features": {} },
+        "teklif": { "enabled": true, "features": { "convert_to_invoice": true } },
+        "irsaliye": { "enabled": false, "features": {} },
+        "personnel": { "enabled": false, "features": {} },
+        "currency": { "enabled": false, "features": {} },
+        "warehouses": { "enabled": false, "features": {} },
+        "price_lists": { "enabled": true, "features": {} }
+      }
+    },
+    {
+      "id": "hizmet_elektrikci",
+      "group_id": "hizmet",
+      "icon": "electrical_services",
+      "name_key": "sector_hizmet_elektrikci",
+      "desc_key": "sector_hizmet_elektrikci_desc",
+      "home_preset": {
+        "quick_actions": [
+          "teklif",
+          "income_add",
+          "expense_add",
+          "invoices",
+          "contacts",
+          "transactions",
+          "cash_accounts",
+          "reports"
+        ],
+        "sections": [
+          { "id": "welcome", "visible": true, "style": "card" },
+          { "id": "summary", "visible": true, "style": "card" },
+          { "id": "quick_actions", "visible": true, "style": "grid" },
+          { "id": "vadesi_gelenler", "visible": true, "style": "banner" },
+          { "id": "recent_transactions", "visible": true, "style": "list" },
+          { "id": "reports_grid", "visible": true, "style": "grid" }
+        ]
+      },
+      "default_modules": {
+        "transactions": { "enabled": true, "features": { "receipt_upload": true } },
+        "contacts": { "enabled": true, "features": {} },
+        "invoices": { "enabled": true, "features": { "receipt_photo": true } },
+        "products": { "enabled": false, "features": {} },
+        "cash_accounts": { "enabled": true, "features": {} },
+        "reports": { "enabled": true, "features": {} },
+        "vadesi_gelenler": { "enabled": true, "features": {} },
+        "sened": { "enabled": false, "features": {} },
+        "teklif": { "enabled": true, "features": { "convert_to_invoice": true } },
+        "irsaliye": { "enabled": false, "features": {} },
+        "personnel": { "enabled": false, "features": {} },
+        "currency": { "enabled": false, "features": {} },
+        "warehouses": { "enabled": false, "features": {} },
+        "price_lists": { "enabled": true, "features": {} }
+      }
+    },
+    {
+      "id": "hizmet_tesisatci",
+      "group_id": "hizmet",
+      "icon": "plumbing",
+      "name_key": "sector_hizmet_tesisatci",
+      "desc_key": "sector_hizmet_tesisatci_desc",
+      "home_preset": {
+        "quick_actions": [
+          "teklif",
+          "income_add",
+          "expense_add",
+          "invoices",
+          "contacts",
+          "transactions",
+          "cash_accounts",
+          "reports"
+        ],
+        "sections": [
+          { "id": "welcome", "visible": true, "style": "card" },
+          { "id": "summary", "visible": true, "style": "card" },
+          { "id": "quick_actions", "visible": true, "style": "grid" },
+          { "id": "vadesi_gelenler", "visible": true, "style": "banner" },
+          { "id": "recent_transactions", "visible": true, "style": "list" },
+          { "id": "reports_grid", "visible": true, "style": "grid" }
+        ]
+      },
+      "default_modules": {
+        "transactions": { "enabled": true, "features": { "receipt_upload": true } },
+        "contacts": { "enabled": true, "features": {} },
+        "invoices": { "enabled": true, "features": { "receipt_photo": true } },
+        "products": { "enabled": false, "features": {} },
+        "cash_accounts": { "enabled": true, "features": {} },
+        "reports": { "enabled": true, "features": {} },
+        "vadesi_gelenler": { "enabled": true, "features": {} },
+        "sened": { "enabled": false, "features": {} },
+        "teklif": { "enabled": true, "features": { "convert_to_invoice": true } },
+        "irsaliye": { "enabled": false, "features": {} },
+        "personnel": { "enabled": false, "features": {} },
+        "currency": { "enabled": false, "features": {} },
+        "warehouses": { "enabled": false, "features": {} },
+        "price_lists": { "enabled": true, "features": {} }
+      }
+    },
+    {
+      "id": "hizmet_boyaci",
+      "group_id": "hizmet",
+      "icon": "format_paint",
+      "name_key": "sector_hizmet_boyaci",
+      "desc_key": "sector_hizmet_boyaci_desc",
+      "home_preset": {
+        "quick_actions": [
+          "teklif",
+          "income_add",
+          "expense_add",
+          "invoices",
+          "contacts",
+          "transactions",
+          "cash_accounts",
+          "reports"
+        ],
+        "sections": [
+          { "id": "welcome", "visible": true, "style": "card" },
+          { "id": "summary", "visible": true, "style": "card" },
+          { "id": "quick_actions", "visible": true, "style": "grid" },
+          { "id": "vadesi_gelenler", "visible": true, "style": "banner" },
+          { "id": "recent_transactions", "visible": true, "style": "list" },
+          { "id": "reports_grid", "visible": true, "style": "grid" }
+        ]
+      },
+      "default_modules": {
+        "transactions": { "enabled": true, "features": { "receipt_upload": true } },
+        "contacts": { "enabled": true, "features": {} },
+        "invoices": { "enabled": true, "features": { "receipt_photo": true } },
+        "products": { "enabled": false, "features": {} },
+        "cash_accounts": { "enabled": true, "features": {} },
+        "reports": { "enabled": true, "features": {} },
+        "vadesi_gelenler": { "enabled": true, "features": {} },
+        "sened": { "enabled": false, "features": {} },
+        "teklif": { "enabled": true, "features": { "convert_to_invoice": true } },
+        "irsaliye": { "enabled": false, "features": {} },
+        "personnel": { "enabled": false, "features": {} },
+        "currency": { "enabled": false, "features": {} },
+        "warehouses": { "enabled": false, "features": {} },
+        "price_lists": { "enabled": true, "features": {} }
+      }
+    },
+    {
+      "id": "hizmet_klimaci",
+      "group_id": "hizmet",
+      "icon": "ac_unit",
+      "name_key": "sector_hizmet_klimaci",
+      "desc_key": "sector_hizmet_klimaci_desc",
+      "home_preset": {
+        "quick_actions": [
+          "teklif",
+          "income_add",
+          "expense_add",
+          "invoices",
+          "contacts",
+          "transactions",
+          "cash_accounts",
+          "reports"
+        ],
+        "sections": [
+          { "id": "welcome", "visible": true, "style": "card" },
+          { "id": "summary", "visible": true, "style": "card" },
+          { "id": "quick_actions", "visible": true, "style": "grid" },
+          { "id": "vadesi_gelenler", "visible": true, "style": "banner" },
+          { "id": "recent_transactions", "visible": true, "style": "list" },
+          { "id": "reports_grid", "visible": true, "style": "grid" }
+        ]
+      },
+      "default_modules": {
+        "transactions": { "enabled": true, "features": { "receipt_upload": true } },
+        "contacts": { "enabled": true, "features": {} },
+        "invoices": { "enabled": true, "features": { "receipt_photo": true } },
+        "products": { "enabled": false, "features": {} },
+        "cash_accounts": { "enabled": true, "features": {} },
+        "reports": { "enabled": true, "features": {} },
+        "vadesi_gelenler": { "enabled": true, "features": {} },
+        "sened": { "enabled": false, "features": {} },
+        "teklif": { "enabled": true, "features": { "convert_to_invoice": true } },
+        "irsaliye": { "enabled": false, "features": {} },
+        "personnel": { "enabled": false, "features": {} },
+        "currency": { "enabled": false, "features": {} },
+        "warehouses": { "enabled": false, "features": {} },
+        "price_lists": { "enabled": true, "features": {} }
+      }
+    },
+    {
+      "id": "hizmet_diger",
+      "group_id": "hizmet",
+      "icon": "home_repair_service",
+      "name_key": "sector_hizmet_diger",
+      "desc_key": "sector_hizmet_diger_desc",
       "home_preset": {
         "quick_actions": [
           "teklif",
